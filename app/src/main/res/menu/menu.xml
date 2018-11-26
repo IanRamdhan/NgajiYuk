@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="never"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/ic_play"
+        android:title="Play"
+        android:orderInCategory="102"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_stop"
+        android:title="Stop"
+        app:showAsAction="always"/>
+
+
+</menu>

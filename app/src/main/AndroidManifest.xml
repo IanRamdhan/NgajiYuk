@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fryanramzkhar.ngajiyuk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/backbtn"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/backbtn"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".DetailSurah" />
+        <activity android:name=".RecycleSurah" />
+        <activity android:name=".Profile"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>

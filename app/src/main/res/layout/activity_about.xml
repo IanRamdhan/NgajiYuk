@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@drawable/backrec"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        android:gravity="center"
+        android:text="THE REASON"
+        android:textColor="#000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/txtReason"
+        android:layout_below="@+id/txtJudul"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|center"
+        android:textSize="18dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:text="The reason I made this application is, In this age People rarely read the Qur'an, because they are lazy to bring the Qur'an with a fairly large size (Riweuh ceuna ... wkwkwk) and also because they are always busy with their work each, especially those working in the office, just in front of the computer. They always cannot spare their time just to read the Qur'an, even prayer is sometimes not done. Therefore I took the initiative to make this application, which might be useful for the Ummah in this era and besides, the advantages of this application include having a listening feature if we want to play it when we read this digital Qur'an, practical to carry because he in the form of an Application. But the lack of this application, he still hasn't added the meaning of Ayat Al-Qur'an in it, and also this application only provides 30 Juzz or Juzz Amma"/>
+
+</RelativeLayout>
+</ScrollView>

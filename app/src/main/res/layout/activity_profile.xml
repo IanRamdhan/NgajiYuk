@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@drawable/backrec">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleView"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/bahan_circle"/>
+
+        <TextView
+            android:id="@+id/txtAwal"
+            android:layout_below="@+id/circleView"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical|center"
+            android:textSize="18dp"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:text= "Fikriansyah Al Anshari Ramdhan. Ya, itu nama saya,Saya terkenal dengan nama Iyan. Saya lahir pada 30 Juli 2003 di Bekasi,  Saya seorang Pelajar, dan Sekarang saya sedang menempuh di Sekolah tingkat SMK, tepatnya di kelas X, di SMK IDN (baru masuk sih ...). Di Sekolah saya mengambil jurusan RPL (Rekayasa Perangkat Lunak). Dan Saya punya alasan sendiri untuk mengambil Departemen RPL ini, dari dulu, saya sangat ingin membuat aplikasi yang sangat keren dan luar biasa, dan ini adalah aplikasi pertama saya. Saya terinspirasi oleh Mark Zubekerberg dan Kevin Systrom, yang merupakan penemu Facebook dan Instagram media sosial paling populer saat ini. Dan target terbesar saya untuk Semester ini adalah bisa membuat aplikasi Medsos yang dapat digunakan oleh semua orang di dunia"/>
+        
+
+        <TextView
+            android:id="@+id/txtSecond"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_below="@+id/txtAwal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical|center"
+            android:textColor="#000"
+            android:text="Nah...jika kalian ingin Mengenal saya lebih jauh, Kalian bisa kunjungi Media Sosial saya di bawah"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/fb"
+            android:layout_width="38dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/fb"
+            android:layout_marginLeft="250dp"/>
+
+        <Button
+            android:id="@+id/ig"
+            android:background="@drawable/ig"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"/>
+</RelativeLayout>
+</ScrollView>
